@@ -18,13 +18,12 @@
     text-decoration-thickness: from-font;
     margin: 0px;
     margin-bottom: 30px; /* adds space between title and next element */
-    color: #F3F3E0;
+    color: #e4e4da;
 }
 
 .timer{
     font-size: 100px;
-    color: #1d506b;
-    background-color: #e4e4da;
+    color: #e4e4da;
     border-radius: 5px;
     margin: 0px;
     margin-bottom: 30px; /* adds space between timer and next element */
@@ -41,7 +40,7 @@ button{
     font-size: 25px;
     padding: 10px 20px; /* left and right padding */
     margin: 5px;
-    color:#F3F3E0;
+    color:#e4e4da;
     border: none;
     border-radius: 5px; /* makes button corners rounded */
     text-transform: uppercase;
@@ -56,14 +55,12 @@ button:hover{
 }
 
 .message{
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 500;
     padding: 10px 20px; /* left and right padding */
     margin: 30px;
-    color:#4a2e78;
-    background-color:#d6cce5;
-    border-style: solid;
-    border-width: thick;
-    border-color: #4a2e78;
+    color: #3b6ea1;
+    background-color: #e4e4da;
     border-radius: 5px; /* makes button corners rounded */
     box-sizing: border-box;
 }
@@ -78,7 +75,6 @@ button:hover{
 
 #break{
     background-color:#3b6ea1;
-
 }
 
 #reset{ /* targets reset button */
