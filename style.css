@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100vh;
+    text-align: center;
+    font-family: Roboto; /* uses imported font from html header */
+    padding: 0;
+}
+
+.title{
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-thickness: from-font;
+    margin: 0px;
+    margin-bottom: 30px; /* adds space between title and next element */
+    color: #F3F3E0;
+}
+
+.timer{
+    font-size: 100px;
+    color: #1d506b;
+    background-color: #e4e4da;
+    border-radius: 5px;
+    margin: 0px;
+    margin-bottom: 30px; /* adds space between timer and next element */
+}
+
+.button-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px 20px; /* left and right padding */
+    margin: 5px;
+    color:#F3F3E0;
+    border: none;
+    border-radius: 5px; /* makes button corners rounded */
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+button:hover{
+    cursor: pointer; /* makes cursor change to hand when hovering over button */
+    opacity: .8; /* changes button opacity when you hover over it */
+    transition: opacity .3s
+    ease-in-out; /* slows down opacity effect */
+}
+
+.message{
+    font-size: 25px;
+    padding: 10px 20px; /* left and right padding */
+    margin: 30px;
+    color:#4a2e78;
+    background-color:#d6cce5;
+    border-style: solid;
+    border-width: thick;
+    border-color: #4a2e78;
+    border-radius: 5px; /* makes button corners rounded */
+    box-sizing: border-box;
+}
+
+#start{ /* targets start button */
+    background-color: #543db1;
+}
+
+#stop{ /* targets stop button */
+    background-color: #2a6a7f;
+}
+
+#break{
+    background-color:#3b6ea1;
+
+}
+
+#reset{ /* targets reset button */
+    background-color: #62578d;
+}
